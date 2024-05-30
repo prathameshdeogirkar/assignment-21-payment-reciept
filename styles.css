@@ -166,3 +166,22 @@ td {
     color: white;
     cursor: pointer;
 }
+
+
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .reciept-container {
+        padding: 30px;
+    }
+
+    .brand-address {
+        text-align: left;
+    }
+
+    .footer{
+        width: auto;
+    }
+    
+}
+

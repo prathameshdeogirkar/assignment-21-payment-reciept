@@ -185,3 +185,45 @@ td {
     
 }
 
+@media (max-width: 768px) {
+    .reciept-container {
+        padding: 20px;
+        width: auto;
+    }
+
+    .reciept-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand-heading {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .brand-address {
+        text-align: left;
+        margin-top: 100px;
+    }
+
+    .footer{
+        width: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+        }
+
+    .section-title{
+        padding-top: 20px;
+        
+    }
+}
+

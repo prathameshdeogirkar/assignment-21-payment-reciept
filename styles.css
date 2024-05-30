@@ -227,3 +227,38 @@ td {
     }
 }
 
+@media (max-width: 576px) {
+    .reciept-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand-heading {
+        font-size: 24px;
+    }
+
+    .dte {
+        font-size: 12px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .thankyou {
+        margin-top: 10px;
+    }
+}
+
